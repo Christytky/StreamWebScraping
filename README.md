@@ -23,8 +23,10 @@
   </ul>
 
 <b>Results</b> --- Extremely low efficiency<br>
-(i) < 1% of SteamIDs generated are valid<br>
-(ii) Time required to select valid id (~1 valid ID/ second)<br>
+<ul>
+<li>< 1% of SteamIDs generated are valid</li>
+<li>Time required to select valid id (~1 valid ID/ second)</li>
+  </ul>
 
 <b>Approach 2</b> --- generate the ID from its simple format (i.e. STEAM 1:1:66138017)<br>
 
