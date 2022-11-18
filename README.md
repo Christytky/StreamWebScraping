@@ -29,5 +29,11 @@
 
 <b>Approach 2</b> --- generate the ID from its simple format (i.e. STEAM 1:1:66138017)
 
-<img width="1440" alt="Screenshot 2022-11-18 at 11 07 31 PM" src="https://user-images.githubusercontent.com/70442354/202740260-a48937df-fbc0-4650-be46-18e1c151663d.png">
-<img width="1440" alt="Screenshot 2022-11-18 at 11 07 53 PM" src="https://user-images.githubusercontent.com/70442354/202740271-bc73e3ef-d1fc-41de-91a9-318b74b829d3.png">
+<h3>Transforming SteamID to 17-digit number</h3>
+<img width="1440" alt="Screenshot 2022-11-18 at 11 28 56 PM" src="https://user-images.githubusercontent.com/70442354/202741106-c7442468-6963-465f-a7c3-52f7a44111ac.png">
+
+
+<h3>Meaning of the simple SteamID</h3>
+<img width="800" alt="Screenshot 2022-11-18 at 11 27 13 PM" src="https://user-images.githubusercontent.com/70442354/202740772-5ee52b74-4e94-44f6-bb37-3c9acd0ddde7.png">
+
+
