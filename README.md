@@ -9,10 +9,25 @@
 <b>The Project Challenge</b> is to acquire a valid Steam ID (gamer ID) for gamer statistical information, as we have to input Steam ID to get the API key. Generating steam ID is a challenging part. The Steam ID itself has 17-digit random ID. By observing a pattern, the first 9-digits of ID are similar while the last 8 digits are random. By decoding the formation, we convert the Steam ID into 64-bit number and convert it back to 17-bit. Ultimately getting Steam ID with 99% account with valid gamer statistical information such as gamers played games, gamers location, total time spent, and money spent.
 
 <br>
-<img src="https://user-images.githubusercontent.com/70442354/202737071-0f5a2b32-a734-4fac-9460-a7a6d166df61.JPG">
+<img width="600" src="https://user-images.githubusercontent.com/70442354/202737071-0f5a2b32-a734-4fac-9460-a7a6d166df61.JPG">
 <br>
 
 <h3>Project Framework -- Data Collection</h3>
 <img width="800" alt="Screenshot 2022-11-18 at 11 06 41 PM" src="https://user-images.githubusercontent.com/70442354/202737569-73a004c7-5857-40e5-9742-c81a596b4b60.png">
 
+<h3>Get Stream Community ID</h3>
+<b>Approach 1</b> --- generate random account numbers<br>
+<ul>
+<li>by observation, valid steam IDs usually have a pattern (e.g. 76561198XXXXXXXXX)</li>
+<li>"76561198" + randomly generate 9-digit numbers</li>
+  </ul>
 
+<br>
+<b>Results</b> --- Extremely low efficiency<br>
+(i) < 1% of SteamIDs generated are valid<br>
+(ii) Time required to select valid id (~1 valid ID/ second)
+
+<b>Approach 2</b> --- generate the ID from its simple format (i.e. STEAM 1:1:66138017)
+
+<img width="1440" alt="Screenshot 2022-11-18 at 11 07 31 PM" src="https://user-images.githubusercontent.com/70442354/202740260-a48937df-fbc0-4650-be46-18e1c151663d.png">
+<img width="1440" alt="Screenshot 2022-11-18 at 11 07 53 PM" src="https://user-images.githubusercontent.com/70442354/202740271-bc73e3ef-d1fc-41de-91a9-318b74b829d3.png">
