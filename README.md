@@ -22,12 +22,11 @@
 <li>"76561198" + randomly generate 9-digit numbers</li>
   </ul>
 
-<br>
 <b>Results</b> --- Extremely low efficiency<br>
 (i) < 1% of SteamIDs generated are valid<br>
-(ii) Time required to select valid id (~1 valid ID/ second)
+(ii) Time required to select valid id (~1 valid ID/ second)<br>
 
-<b>Approach 2</b> --- generate the ID from its simple format (i.e. STEAM 1:1:66138017)
+<b>Approach 2</b> --- generate the ID from its simple format (i.e. STEAM 1:1:66138017)<br>
 
 <h3>Transforming SteamID to 17-digit number</h3>
 <img width="1440" alt="Screenshot 2022-11-18 at 11 28 56 PM" src="https://user-images.githubusercontent.com/70442354/202741106-c7442468-6963-465f-a7c3-52f7a44111ac.png">
