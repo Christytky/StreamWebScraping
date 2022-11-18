@@ -10,7 +10,6 @@
 
 <br>
 <img width="600" src="https://user-images.githubusercontent.com/70442354/202737071-0f5a2b32-a734-4fac-9460-a7a6d166df61.JPG">
-<br>
 
 <h3>Project Framework -- Data Collection</h3>
 <img width="800" alt="Screenshot 2022-11-18 at 11 06 41 PM" src="https://user-images.githubusercontent.com/70442354/202737569-73a004c7-5857-40e5-9742-c81a596b4b60.png">
@@ -28,10 +27,10 @@
 <li>Time required to select valid id (~1 valid ID/ second)</li>
   </ul>
 
-<b>Approach 2</b> --- generate the ID from its simple format (i.e. STEAM 1:1:66138017)<br>
+<b>Approach 2</b> --- generate the ID from its simple format (i.e. STEAM 1:1:66138017)<br><br>
 
 <h3>Transforming SteamID to 17-digit number</h3>
-<img width="1440" alt="Screenshot 2022-11-18 at 11 28 56 PM" src="https://user-images.githubusercontent.com/70442354/202741106-c7442468-6963-465f-a7c3-52f7a44111ac.png">
+<img width="800" alt="Screenshot 2022-11-18 at 11 28 56 PM" src="https://user-images.githubusercontent.com/70442354/202741106-c7442468-6963-465f-a7c3-52f7a44111ac.png">
 
 
 <h3>Meaning of the simple SteamID</h3>
